@@ -54,7 +54,7 @@ const checkVinNumberValid = (req, res, next) => {
 }
 
 const checkVinNumberUnique = (req, res, next) => {
-  // DO YOUR MAGIC
+  const { vin } = req.body
 }
 
 module.exports = {
